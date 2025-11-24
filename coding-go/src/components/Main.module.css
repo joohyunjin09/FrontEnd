@@ -1,0 +1,43 @@
+.NavBar {
+  text-align: center;
+  width: 250px;
+  min-width: 250px;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-right: 5px solid rgba(206, 214, 221, 0.63);
+}
+
+.Logo {
+  margin-bottom: 80px;
+}
+
+.NavItems {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.NavItems p {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.ItemsTexts {
+  flex-grow: 2;
+  text-align: start;
+}
